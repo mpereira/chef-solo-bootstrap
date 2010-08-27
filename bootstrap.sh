@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 #
-# This script prepares your chef environment.
+# This script prepares your chef environment
 #
 # Things that get installed:
 # - curl
@@ -8,7 +8,9 @@
 # - rvm (with ruby 1.8.7)
 # - chef
 #
-# Note: wrote to run on archlinux.
+# Notes:
+# - system-wide rvm installation
+# - wrote to run on archlinux
 
 # install curl and git
 pacman -Syyu curl git --noconfirm --noprogressbar
