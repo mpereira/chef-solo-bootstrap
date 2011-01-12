@@ -16,7 +16,7 @@
 pacman -Syyu curl git --noconfirm --noprogressbar
 
 # install rvm
-curl -L http://bit.ly/rvm-install-system-wide | bash
+sh < <( curl http://rvm.beginrescueend.com/releases/rvm-install-head )
 
 # load rvm functions to the current shell
 source /usr/local/lib/rvm
