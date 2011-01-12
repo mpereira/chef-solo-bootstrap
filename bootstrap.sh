@@ -22,10 +22,10 @@ curl -L http://bit.ly/rvm-install-system-wide | bash
 source /usr/local/lib/rvm
 
 # install ruby 1.8.7
-rvm install 1.8.7
+rvm install 1.9.2
 
 # make ruby 1.8.7's 'global' gemset the default
-rvm --default 1.8.7@global
+rvm 1.9.2@global --default
 
 # load rvm functions when spawning a new vhell
 echo "[[ -s \"/usr/local/rvm/scripts/rvm\" ]] && . \"/usr/local/rvm/scripts/rvm\"" >> /etc/profile
